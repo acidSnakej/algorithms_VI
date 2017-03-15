@@ -58,6 +58,9 @@ def par_o_impar():
         print 'Este numero par'
 
 def menor_o_mayor():
+    """
+        funcion que muestra la sumatoria del 1 al 10
+    """
     print 'Ingrese el primer numero : '
     numero_1 = int(input())
     print 'Ingrese el segundo numero: '
@@ -66,5 +69,20 @@ def menor_o_mayor():
         print 'El primer numero es mayor que el segundo'
     else:
         print 'El segundo numero es mayor que el primero'
+
+def sumatoria():
+    """
+        Funcion que muestra la sumatoria del 1 al 10
+    """
+    validador = True
+    sumatoria = 0
+    contador = 1
+    while(validador):
+        sumatoria = contador + sumatoria
+        contador += 1
+        if contador > 10:
+            validador = False
+    
+    print 'La sumatoria es %d' % sumatoria
 # Ejemplo
-#menor_o_mayor()
+sumatoria()
