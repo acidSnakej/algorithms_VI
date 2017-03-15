@@ -56,3 +56,30 @@ def high_low_number():
         print 'El numero %d es mayor que el numero %d' % (numbers[1], numbers[0])
     else:
         print 'El numero %d es mayor que el numero %d' % (numbers[0], numbers[1])
+
+def summation():
+    """
+        Funcion que muestra la sumatoria de 1 al 10.
+    """
+    i = 1
+    summation = 0
+    while i < 11:
+        summation = i + summation
+        i += 1
+    print summation
+
+def odd_or_even():
+    """
+        Funcion que determina si un numero es par o impar,
+        si se desea usar ingresando el numero por favor descomente las lineas correspondientes
+    """
+
+    number = 200
+    # message = print 'Ingrese el numero'
+    # number = int(input(message))
+    if number % 2 == 0:
+        print 'El numero %d es par' % number
+    else:
+        print 'El numero %d es impar' % number
+
+odd_or_even()
