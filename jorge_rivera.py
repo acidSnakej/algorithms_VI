@@ -1,4 +1,4 @@
-
+# Edite el codigo fuente al final, llamando la funcion deseada
 def approved():
     
     """
@@ -82,4 +82,29 @@ def odd_or_even():
     else:
         print 'El numero %d es impar' % number
 
-odd_or_even()
+def simple_order():
+    
+    
+
+    """
+        Funcion que ordena una lista de dos elementos de menor a mayor, esto es lo mas basico de ordenamiento
+        si desea ingresar los numeros manualmente por favor descomente las lineas correspondientes
+    """
+
+    numbers = [123, 4]
+
+    if numbers[0] > numbers[1]:
+        aux = numbers[0]
+        numbers[0] = numbers[1]
+        numbers[1] = aux
+        print 'el orden es:'
+        print numbers
+    else:
+        
+        aux = numbers[1]
+        numbers[1] = numbers[0]
+        numbers[0] = aux
+        print 'el orden es:'
+        print numbers
+# para ver un ejemplo descomente la linea siguiente
+# simple_order()
