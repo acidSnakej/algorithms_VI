@@ -1,3 +1,4 @@
+# Edite el codigo fuente para llamar a la funcion correspondiente
 def aprobado():
     """
         funcion para saber si un estudiante pasa el semestre o no,
@@ -44,4 +45,26 @@ def ordenar():
     print 'La lista ordenada es: '
     print lista_ordenada
 
-def
+def par_o_impar():
+    """
+        Funcion para saber si un numero es par o impar
+    """
+    print 'ingrese el numero: '
+    numero = int(input())
+    division = numero % 2
+    if division != 0:
+        print 'Este numero impar'
+    else:
+        print 'Este numero par'
+
+def menor_o_mayor():
+    print 'Ingrese el primer numero : '
+    numero_1 = int(input())
+    print 'Ingrese el segundo numero: '
+    numero_2 = int(input())
+    if numero_1 > numero_2:
+        print 'El primer numero es mayor que el segundo'
+    else:
+        print 'El segundo numero es mayor que el primero'
+# Ejemplo
+#menor_o_mayor()
