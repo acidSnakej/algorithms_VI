@@ -83,9 +83,6 @@ def odd_or_even():
         print 'El numero %d es impar' % number
 
 def simple_order():
-    
-    
-
     """
         Funcion que ordena una lista de dos elementos de menor a mayor, esto es lo mas basico de ordenamiento
         si desea ingresar los numeros manualmente por favor descomente las lineas correspondientes
